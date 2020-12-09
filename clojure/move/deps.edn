@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps {fundingcircle/jackdaw {}
+        org.clojure/data.json {}
+        org.clojure/core.async {}
+        willa {}
+        eloise/specs {}}}

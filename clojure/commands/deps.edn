@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps {fundingcircle/jackdaw {}
+        io.pedestal/pedestal.service {}
+        io.pedestal/pedestal.jetty {}
+        io.pedestal/pedestal.route {}
+        org.clojure/data.json {}
+        org.clojure/core.async {}
+        eloise/specs {}}}

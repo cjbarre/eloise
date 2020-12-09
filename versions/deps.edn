@@ -1,0 +1,19 @@
+{:mvn/repos 
+ {"confluent" {:url "https://packages.confluent.io/maven/"}}
+ :aliases 
+ {:defaults
+  {:override-deps
+   {fundingcircle/jackdaw {:mvn/version "0.7.6"}
+    io.pedestal/pedestal.service {:mvn/version "0.5.8"}
+    io.pedestal/pedestal.jetty {:mvn/version "0.5.8"}
+    io.pedestal/pedestal.route {:mvn/version "0.5.8"}
+    org.clojure/data.json {:mvn/version "1.0.0"}
+    org.clojure/core.async {:mvn/version "1.3.610"}
+    willa {:mvn/version "0.1.4"}
+    eloise/specs {:local/root "../specs"}}}
+  :nrepl
+  {:extra-deps
+   {nrepl/nrepl {:mvn/version "0.8.0"}}}
+  :clj-kondo
+  {:extra-deps
+   {clj-kondo {:mvn/version "2020.04.05"}}}}}
